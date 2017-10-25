@@ -27,3 +27,4 @@ $ python seleniumMobileEmulation.py
 
 #### Note :
 - browser = Chrome / chromedriver
+- referensi : https://gist.github.com/devinmancuso/ec8ae08fa73402e45bf1
