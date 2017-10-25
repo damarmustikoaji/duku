@@ -80,7 +80,11 @@ class PythonOrgSearchChrome(unittest.TestCase):
 		chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
 
 		# Create driver, pass it the path to the chromedriver file and the special configurations you want to run
+        #try
 		self.driver = webdriver.Chrome(executable_path='../driver/chromedriver', chrome_options=chrome_options)
+
+        #or
+        #self.driver = webdriver.Chrome(chrome_options=chrome_options)
 
 	# An individual test case. Must start with 'test_' (as per unittest module)
 	def test_search_in_python_chrome(self):
